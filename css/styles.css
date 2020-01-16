@@ -4,6 +4,7 @@
   padding-right: 15%;
   padding-bottom: 3%;
   padding-left: 15%
+  font-family: 'Montserrat';
 }
 body {
   font-family: 'Montserrat', sans-serif;
@@ -15,12 +16,35 @@ h1{
   font-weight: 900;
   font-size:3rem;
   line-height:1.5;
+  color: white;
 }
 
-.navbar-brand {
+h2 {
+  font-weight: bold;
   font-family:'Montserrat', sans-serif;
-  font-weight: 700;
 }
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar {
+  padding-left: 0;
+}
+.navbar-brand {
+  font-family:'ubuntu', sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  margin-bottom: 4.5rem;
+  }
+
+.nav-item {
+ margin-right: 18px;
+ margin-left: 18px;
+ font-weight: 100;
+ font-size: 1.2rem;
+ margin-bottom: 4.5rem;
+ }
 
 #features {
   padding-top: 10%;
@@ -41,7 +65,76 @@ h3 {
 }
  .fe-icon{
   color: #ef8172;
+  margin-bottom: 5%;
 }
 .fe-icon:hover{
   color: #ff4c68;
+}
+
+.iphone {
+  transform: rotate(30deg);
+  width: 60%;
+  margin-left: 4rem;
+}
+
+.button-space {
+  margin-left: 0;
+  margin-right: 3%;
+  margin-top: 5%;
+  margin-bottom: 5%
+}
+.carousel-item {
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+
+.testimonial-text {
+padding: 3% 10% 0 10%;
+font-family:'Montserrat', sans-serif;
+
+}
+#testimonials {
+  text-align: center;
+  color: white;
+  background-color: #ef8172;
+}
+.press-logo {
+width: 15%;
+padding: 10px 20px 50px;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+
+}
+#pricing {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.card {
+  margin-top: 5%;
+
+}
+
+#cta {
+  text-align: center;
+  color: white;
+  background-color: #ff4c68;
+  padding: 10% 10%;
+}
+
+#footer {
+  text-align: center;
+  padding: 10% 10%;
+}
+
+.icon {
+  color: #ff4c68;
+margin: 2% 2% 2% 2%;
 }
