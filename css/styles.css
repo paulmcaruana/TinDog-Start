@@ -6,7 +6,7 @@
   padding-right: 15%;
   padding-bottom: 3%;
   padding-left: 15%
-  font-family: 'Montserrat', sans-serif;
+  
 }
 body {
   font-family: 'Montserrat', sans-serif;
@@ -14,7 +14,7 @@ body {
 }
 
 h1{
-  font-family:'Montserrat', sans-serif;
+
   font-weight: 900;
   font-size:3rem;
   line-height:1.5;
@@ -23,7 +23,7 @@ h1{
 
 h2 {
   font-weight: bold;
-  font-family:'Montserrat', sans-serif;
+
 }
 .button-space {
   margin-left: 0;
@@ -123,7 +123,7 @@ padding: 10px 20px 50px;
 
 .testimonial-text {
 padding: 3% 10% 0 10%;
-font-family:'Montserrat', sans-serif;
+
 
 }
 
