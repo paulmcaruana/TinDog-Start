@@ -1,10 +1,12 @@
+/*title section*/
+
 #title {
   background-color: #ff4c68;
   padding-top: 3%;
   padding-right: 15%;
   padding-bottom: 3%;
   padding-left: 15%
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
 }
 body {
   font-family: 'Montserrat', sans-serif;
@@ -23,9 +25,21 @@ h2 {
   font-weight: bold;
   font-family:'Montserrat', sans-serif;
 }
-
+.button-space {
+  margin-left: 0;
+  margin-right: 3%;
+  margin-top: 5%;
+  margin-bottom: 5%
+}
 .container-fluid {
   padding: 3% 15%;
+}
+
+.iphone {
+  transform: rotate(30deg);
+  width: 60%;
+  margin-left: 4rem;
+  position: absolute;
 }
 
 .navbar {
@@ -45,6 +59,8 @@ h2 {
  font-size: 1.2rem;
  margin-bottom: 4.5rem;
  }
+
+/*Features section*/
 
 #features {
   padding-top: 10%;
@@ -74,20 +90,28 @@ h3 {
   color: #ff4c68;
 }
 
-.iphone {
-  transform: rotate(30deg);
-  width: 60%;
-  margin-left: 4rem;
-  position: absolute;
+
+
+/*testimonial section*/
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  z-index: 3;
+
 }
 
-.button-space {
-  margin-left: 0;
-  margin-right: 3%;
-  margin-top: 5%;
-  margin-bottom: 5%
+#testimonials {
+  text-align: center;
+  color: white;
+  background-color: #ef8172;
 }
+
 .carousel-item {
+}
+
+.press-logo {
+width: 15%;
+padding: 10px 20px 50px;
 }
 
 .testimonial-image {
@@ -102,21 +126,17 @@ padding: 3% 10% 0 10%;
 font-family:'Montserrat', sans-serif;
 
 }
-#testimonials {
+
+
+/*pricing section*/
+
+#cta {
   text-align: center;
   color: white;
-  background-color: #ef8172;
+  background-color: #ff4c68;
+  padding: 10% 10%;
 }
-.press-logo {
-width: 15%;
-padding: 10px 20px 50px;
-}
-#press {
-  background-color: #ef8172;
-  text-align: center;
-  z-index: 3;
 
-}
 #pricing {
   padding: 7% 15%;
   text-align: center;
@@ -127,12 +147,7 @@ padding: 10px 20px 50px;
 
 }
 
-#cta {
-  text-align: center;
-  color: white;
-  background-color: #ff4c68;
-  padding: 10% 10%;
-}
+/*footer section*/
 
 #footer {
   text-align: center;
@@ -142,4 +157,26 @@ padding: 10px 20px 50px;
 .icon {
   color: #ff4c68;
 margin: 2% 2% 2% 2%;
+}
+
+/*media queries*/
+
+@media screen and (max-width: 992px) {
+
+
+#features {
+z-index: 0;
+position: ;
+}
+
+#title {
+  text-align: center;
+}
+.iphone {
+  transform: rotate(0deg);
+  width: 60%;
+  margin-left: 0rem;
+  text-align: center;
+  position: relative;
+}
 }
