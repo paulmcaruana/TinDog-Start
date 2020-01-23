@@ -128,7 +128,8 @@ font-family:'Montserrat', sans-serif;
 }
 
 
-/*pricing section*/
+
+/*Call To Action*/
 
 #cta {
   text-align: center;
@@ -136,6 +137,8 @@ font-family:'Montserrat', sans-serif;
   background-color: #ff4c68;
   padding: 10% 10%;
 }
+
+/*pricing section*/
 
 #pricing {
   padding: 7% 15%;
